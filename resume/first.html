@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Clone</title>
+</head>
+<body>
+    <h1>Blockchain</h1>
+    <hr>
+    <p>From Wikipedia, the free encyclopedia</p>
+    <p> <em> For other uses, see Block chain (disambiguation).</em></p>
+    <img height="300" 
+     src="image\blocchainimg.png" alt="This is an blocks image of blockchain">
+   
+    <p>A <strong> blockchain</strong> is a type of <b>distributed ledger technology (DLT)</b>  that consists of growing list of records, called blocks, that are securely linked together using cryptography. <sup>[1][2][3][4]</sup>  Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leafs). The timestamp proves that the transaction data existed when the block was created. Since each block contains information about the block previous to it, they effectively form a chain (compare linked list data structure), with each additional block linking to the ones before it. Consequently, blockchain transactions are irreversible in that, once they are recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.
+   <br> <br> Blockchains are typically managed by a peer-to-peer (P2P) computer network for use as a public distributed ledger, where nodes collectively adhere to a consensus algorithm protocol to add and validate new transaction blocks. Although blockchain records are not unalterable, since blockchain forks are possible, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance. <sup>[5]</sup> <br> A blockchain was created by a person (or group of people) using the name (or pseudonym) Satoshi Nakamoto in 2008 <sup>[6]</sup> to serve as the public distributed ledger for bitcoin cryptocurrency transactions, based on previous work by Stuart Haber, W. Scott Stornetta, and Dave Bayer.<sup>[7]</sup> The identity of Satoshi Nakamoto remains unknown to date. The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need of a trusted authority or central server. The bitcoin design has inspired other applications <sup>[3][2]</sup> and blockchains that are readable by the public and are widely used by cryptocurrencies. The blockchain may be considered a type of payment rail. <sup>[8]</sup> <br> Private blockchains have been proposed for business use. Computerworld called the marketing of such privatized blockchains without a proper security model "snake oil"; <sup> [9]</sup> however, others have argued that permissioned blockchains, if carefully designed, may be more decentralized and therefore more secure in practice than permissionless ones.  <sup>[4][10]</sup> </p>
+     
+    
+   <ol>
+    <li>History</li>
+    <li>Structure & Design
+        <ol type="I" >
+            <li>Blocks
+                <ol type="i">
+                    <li>Block time</li>
+                    <li>Hard forks</li>
+                </ol>
+                <li>Decentralization</li>
+                <li>Openness
+                    <ol type="i">
+                        <li>Permission(public) blockchain</li>
+                        <li>Permissioned(private) blockchain</li>
+                        <li>Blockchain analysis</li>
+                    </ol>
+                </li>
+                <li>Standardisation</li>
+                <li>Centralized Blockchain</li>
+            </li>
+        </ol>
+    </li>
+    <li>Types
+        <ol type="i">
+            <li>Public blochchain</li>
+            <li>Private blockchains</li>
+            <li>Hybrid blockchains</li>
+            <li>Sidechains</li>
+        </ol>
+    </li>
+    <li>Uses
+        <ol type="i">
+            <li>Cryptocurrencies</li>
+            <li>Smart contracts</li>
+            <li>Finicial services</li>
+            <li>Games</li>
+            <li>Supply chain</li>
+            <li>Domain names</li>
+            <li>Other uses</li>
+        </ol>
+    </li>
+    <li>Blockchain interoperability</li>
+    <li>Energy consumption concerns</li>
+    <li>Academic research
+      <ol type="i">
+        <li>Adoption decison</li>
+        <li>Collaboration</li>
+        <li>Blockchain and internal audit</li>
+        <li>Journals</li>
+      </ol>
+    </li>
+    <li>See also</li>
+    <li>Refrences </li>
+    <li>Further reading</li>
+</ol>
+
+
+
+
+<h2>History</h2>
+<hr>
+
+<p>Cryptographer David Chaum first proposed a blockchain-like protocol in his 1982 dissertation "Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups."<sup>[11]</sup> Further work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. <sup>[4][12]</sup> They wanted to implement a system wherein document timestamps could not be tampered with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees into the design, which improved its efficiency by allowing several document certificates to be collected into one block.<sup>[4][13] </sup> Under their company Surety, their document certificate hashes have been published in <em>The New York Times</em>  every week since 1995.  <sup>[14]</sup>  <br>The first decentralized blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in 2008. Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without requiring them to be signed by a trusted party and introducing a difficulty parameter to stabilize the rate at which blocks are added to the chain. <sup>[4]</sup> The design was implemented the following year by Nakamoto as a core component of the cryptocurrency bitcoin, where it serves as the public ledger for all transactions on the network. <sup>[3]</sup> </p>
+<p>In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred on the network, reached 20 GB (gigabytes). <sup>[15]</sup> In January 2015, the size had grown to almost 30 GB, and from January 2016 to January 2017, the bitcoin blockchain grew from 50 GB to 100 GB in size. The ledger size had exceeded 200 GB by early 2020. <sup>[16]</sup></p>
+<p>The words block and chain were used separately in Satoshi Nakamoto's original paper, but were eventually popularized as a single word, <i>blockchain</i> , by 2016. <sup>[17]</sup></p>
+<p>According to Accenture, an application of the diffusion of innovations theory suggests that blockchains attained a 13.5% adoption rate within financial services in 2016, therefore reaching the early adopters' phase. <sup>[18]
+
+</sup>Industry trade groups joined to create the Global Blockchain Forum in 2016, an initiative of the Chamber of Digital Commerce.</p>
+<p>In May 2018, Gartner found that only 1% of CIOs indicated any kind of blockchain adoption within their organisations, and only 8% of CIOs were in the short-term "planning or [looking at] active experimentation with blockchain". <sup>[19]</sup> For the year 2019 Gartner reported 5% of CIOs believed blockchain technology was a 'game-changer' for their business. <sup>[20]</sup></p>
+
+
+<h2>Structure & Design</h2>
+
+<hr>
+
+<p>A blockchain is a decentralized, distributed, and often public, digital ledger consisting of  records called <em>blocks</em> that are used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks. <sup>[3][21]</sup> This allows the participants to verify and audit transactions independently and relatively inexpensively. <sup>[22]</sup> A blockchain database is managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated by mass collaboration powered by collective self-interests. <sup>[23]</sup> Such a design facilitates robust workflow where participants' uncertainty regarding data security is marginal. The use of a blockchain removes the characteristic of infinite reproducibility from a digital asset. It confirms that each unit of value was transferred only once, solving the long-standing problem of double-spending. A blockchain has been described as a <em>value-exchange</em>  protocol. <sup>[24]</sup> A blockchain can maintain title rights because, when properly set up to detail the exchange agreement, it provides a record that compels offer and acceptance. <sup><i>[citation needed]</i></sup></p>
+
+<p>Logically, a blockchain can be seen as consisting of several layers: <sup>[25]</sup></p>
+
+<ul>
+
+<li>infrastructure (hardware)</li>
+<li>networking (node discovery, information propagation <sup>[26] </sup>and verification)</li>
+<li>consensus (proof of work, proof of stake)</li>
+<li>data (blocks, transactions)</li>
+<li>application (smart contracts/decentralized applications, if applicable)</li>
+
+
+
+
+</ul>
+<h2><b> Blocks</b> </h2>
+
+<p>Blocks hold batches of valid transactions that are hashed and encoded into a Merkle tree. <sup>[3]</sup> Each block includes the cryptographic hash of the prior block in the blockchain, linking the two. The linked blocks form a chain. <sup>[3] </sup>This iterative process confirms the integrity of the previous block, all the way back to the initial block, which is known as the genesis block (Block 0). <sup>[27][28]</sup> To assure the integrity of a block and the data contained in it, the block is usually digitally signed. <sup>[29]</sup></p>
+<p>Sometimes separate blocks can be produced concurrently, creating a temporary fork. In addition to a secure hash-based history, any blockchain has a specified algorithm for scoring different versions of the history so that one with a higher score can be selected over others. Blocks not selected for inclusion in the chain are called orphan blocks.[28] Peers supporting the database have different versions of the history from time to time. They keep only the highest-scoring version of the database known to them. Whenever a peer receives a higher-scoring version (usually the old version with a single new block added) they extend or overwrite their own database and retransmit the improvement to their peers. There is never an absolute guarantee that any particular entry will remain in the best version of history forever. Blockchains are typically built to add the score of new blocks onto old blocks and are given incentives to extend with new blocks rather than overwrite old blocks. Therefore, the probability of an entry becoming superseded decreases exponentially[30] as more blocks are built on top of it, eventually becoming very low.[3][31]: ch. 08 [32] For example, bitcoin uses a proof-of-work system, where the chain with the most cumulative proof-of-work is considered the valid one by the network. There are a number of methods that can be used to demonstrate a sufficient level of computation. Within a blockchain the computation is carried out redundantly rather than in the traditional segregated and parallel manner. <sup>[33]</sup></p>
+
+<h2>Block time</h2>
+
+<p>The block time is the average time it takes for the network to generate one extra block in the blockchain. Some blockchains create a new block as frequently as every five seconds.[34] By the time of block completion, the included data becomes verifiable. In cryptocurrency, this is practically when the transaction takes place, so a shorter block time means faster transactions. The block time for Ethereum is set to between 14 and 15 seconds, while for bitcoin it is on average 10 minutes.[35]</p>
+<h2>Contents </h2>
+
+<h2>Supply chain</h2>
+<ul>
+    <li>Shipping industry — incumbent shipping companies and startups have begun to
+         leverage blockchain technology to facilitate the emergence of a blockchain-based platform ecosystem 
+         that would create value across the global shipping supply chains. <sup>[115]</sup></li>
+    <li>
+        Precious commodities mining — Blockchain technology has been used for tracking the origins of gemstones and other 
+        precious commodities. In 2016, The Wall Street Journal reported that the blockchain technology company Everledger
+         was partnering with IBM's blockchain-based tracking service to trace the origin of diamonds to ensure that they 
+         were ethically mined. <sup>[116]</sup> As of 2019, the Diamond Trading Company (DTC) has been involved in building a diamond
+          trading supply chain product called Tracr. <sup>[117]</sup>
+
+    </li>
+    <li>Food supply — As of 2018, Walmart and IBM were running a trial to use a blockchain-backed system for supply 
+        chain monitoring for lettuce and spinach
+         — all nodes of the blockchain were administered by Walmart and were located on the IBM cloud. <sup>[118]</sup></li>
+    <li>Fashion industry — There is an opaque relationship between brands, distributors, and customers in the fashion industry, which will prevent the sustainable
+         and stable development of the fashion industry. 
+         Blockchain makes up for this shortcoming and makes information transparent, 
+         solving the difficulty of sustainable development of the industry. <sup>[119]</sup></li>
+</ul>
+
+<h2>See also</h2>
+<ul>
+    <li>Changelog – a record of all notable changes made to a project</li>
+    <li>Checklist – an informational aid used to reduce failure</li>
+    <li>Economics of digitization</li>
+    <li>Privacy and blockchain</li>
+    <li>Version control – a record of all changes (mostly of software project) in a form of a graph</li>
+</ul>
+
+
+
+</body>
+</html>
